@@ -186,6 +186,7 @@ a.header-cta {
         padding-top: 45px;
         font-weight: var(--fw-700);
         font-size: clamp(1.5rem, 1.77vw + 1.09rem, 2.5rem);
+        max-width: 627px;
     }
 
     p {
@@ -220,6 +221,7 @@ a.header-cta {
     h2 {
         padding-top: 90px;
         font-size: clamp(1rem, 2.65vw + 0.38rem, 2.5rem);
+        font-weight: 700;
 
         @media screen and (min-width:48em) {
             padding-top: 0;
